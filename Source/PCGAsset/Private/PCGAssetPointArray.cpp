@@ -1,5 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-#include "PCGPointArray.h"
+#include "PCGAssetPointArray.h"
 
 #include "PCGContext.h"
 #include "Data/PCGSpatialData.h"
@@ -8,9 +8,9 @@
 #include "Helpers/PCGHelpers.h"
 #include "Math/RandomStream.h"
 //The macro in UE5 for speed up the compilation. Just add it
-#include UE_INLINE_GENERATED_CPP_BY_NAME(PCGPointArray)
+#include UE_INLINE_GENERATED_CPP_BY_NAME(PCGAssetPointArray)
 //Using Name Space to avoid variable name conflict with engine code. Just add it
-#define LOCTEXT_NAMESPACE "PCGPointArray"
+#define LOCTEXT_NAMESPACE "PCGAssetPointArray"
 
 UPCGPointArraySettings::UPCGPointArraySettings()
 {

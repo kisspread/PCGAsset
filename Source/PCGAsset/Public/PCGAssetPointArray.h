@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "PCGSettings.h"
-#include "PCGPointArray.generated.h"
+#include "PCGAssetPointArray.generated.h"
 
 UENUM()
 enum class EPCGPointArrayScaleMode : uint8
